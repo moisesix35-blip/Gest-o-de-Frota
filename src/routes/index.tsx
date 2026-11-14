@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useMemo, useState } from "react";
-import { Truck, Users, Route as RouteIcon, FileText, LayoutDashboard, Plus, X, Upload, Search, Trash2, Download } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Truck, Users, Route as RouteIcon, FileText, LayoutDashboard, Plus, X, Upload, Search, Download } from "lucide-react";
 import * as XLSX from "xlsx";
 
 export const Route = createFileRoute("/")({ component: FleetApp });
